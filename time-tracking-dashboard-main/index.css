@@ -1,0 +1,215 @@
+body{
+    margin: 0.5%;
+    padding: 0%;
+    background-color: hsl(226, 43%, 10%);
+}
+
+.Container{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.InnerContainer{
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Profile{
+    height: 120%;
+    width: 20%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+}
+
+.Image{
+    height: 20%;
+    width: 25%;
+    padding: 5%;
+}
+
+.Work{
+    height: 90%;
+    width: 25%;
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 10px;
+}
+
+.Play{
+    height: 90%;
+    width: 25%;
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 10px;
+}
+
+.Study{
+    height: 90%;
+    width: 25%;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 10px;
+}
+
+.Exercise{
+    height: 90%;
+    width: 25%;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 10px;
+}
+
+.Social{
+    height: 90%;
+    width: 25%;
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 10px;
+}
+
+.Self-Care{
+    height: 90%;
+    width: 25%;
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 10px;
+}
+
+.Period{
+    height: 100%;
+    width: 20%;
+    background-color: hsl(226, 43%, 10%);
+    border-radius: 10px;
+}
+
+.Icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.IconSize{
+    height: 60px;
+    width: 15%;
+}
+
+.Content{
+    height: 77.5%;
+    width: 100%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+
+.Content:hover{
+    background-color: hsl(235, 45%, 61%);
+}
+
+.TitleBox{
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "Rubik";
+    font-size: 18px;
+}
+
+.Ellipsis{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.EllipsisSize{
+    height: 100%;
+    width: 60%;
+    padding: 30%;
+}
+
+.MainTextBox{
+    height: 20%;
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+    font-family: "Rubik";
+    font-size: 36px;
+}
+
+.LastWeekBox{
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+    font-family: "Rubik";
+    font-size: 18px;
+}
+
+.PeriodBox{
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "Rubik";
+    font-size: 18px;
+}
+
+/*Functionality not included
+
+Report for
+  Jeremy Robson
+
+  Daily
+  Weekly
+  Monthly
+
+  Work
+  5hrs <!-- daily -->
+  Previous - 7hrs <!-- daily -->
+  32hrs <!-- weekly -->
+  Previous - 36hrs <!-- weekly -->
+  103hrs <!-- monthly -->
+  Previous - 128hrs <!-- monthly -->
+
+  Play
+  1hr <!-- daily -->
+  Previous - 2hrs <!-- daily -->
+  10hrs <!-- weekly -->
+  Previous - 8hrs <!-- weekly -->
+  23hrs <!-- monthly -->
+  Previous - 29hrs <!-- monthly -->
+
+  Study
+  0hrs <!-- daily -->
+  Previous - 1hr <!-- daily -->
+  4hrs <!-- weekly -->
+  Previous - 7hrs <!-- weekly -->
+  13hrs <!-- monthly -->
+  Previous - 19hrs <!-- monthly -->
+
+  Exercise
+  1hr <!-- daily -->
+  Previous - 1hr <!-- daily -->
+  4hrs <!-- weekly -->
+  Previous - 5hrs <!-- weekly -->
+  11hrs <!-- monthly -->
+  Previous - 18hrs <!-- monthly -->
+
+  Social
+  1hr <!-- daily -->
+  Previous - 3hrs <!-- daily -->
+  5hrs <!-- weekly -->
+  Previous - 10hrs <!-- weekly -->
+  21hrs <!-- monthly -->
+  Previous - 23hrs <!-- monthly -->
+
+  Self Care
+  0hrs <!-- daily -->
+  Previous - 1hr <!-- daily -->
+  2hrs <!-- weekly -->
+  Previous - 2hrs <!-- weekly -->
+  7hrs <!-- monthly -->
+  Previous - 11hrs <!-- monthly -->*/
